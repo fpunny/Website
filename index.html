@@ -12,11 +12,11 @@
 <body class='default'>
     <nav class='default'>
         <ul onmouseover="menuOpen()" onmouseout="menuClose()" id='nav' class='default nav'>
-            <li style='float: left; padding: 11px 20px; pointer-events: none;'><a href='#'>Frederic Pun</a></li><li>
-            <a href='#home'>Home</a></li><li>
-            <a href='#projects'>Projects</a></li><li>
-            <a href='#'>Resume</a></li><li>
-            <a href='#'>Contact</a></li>
+            <a href='#home' onclick="smoothScroll('projects')"><li style='float: left; padding: 11px 20px; pointer-events: none;'>Frederic Pun</li></a><a href='#home' onclick="smoothScroll('home')"><li>
+            Home</li></a><a onclick="smoothScroll('projects')" href='#projects'><li>
+            Projects</li></a><a href='#'><li>
+            Resume</li></a><a href='#'><li>
+            Contact</li></a>
         </ul>
         <div onclick='menuOpen()' class='default control'>
             <div class='default bar'></div>
@@ -25,7 +25,7 @@
         </div>
     </nav>
     <section onclick='menuClose()'>
-    <a name='home'></a>
+    <a id='home'></a>
     <div class='default background' style='background-image: url(source/start.jpg); height: 100vh;'>
         <div class='container'>
         <div style='position: relative; height: 220px; width: 220px;'>
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <a name='projects'></a>
+    <a id='projects'></a>
     <div class='default background' style='background-color: #4C6085; height: 100vh;'>
         <div style='container'>
             <h3 class='default head' style='padding-top: 10px;'>Projects</h3>
