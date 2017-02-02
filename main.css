@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .default {
     margin: 0;
     padding: 0;
@@ -69,76 +68,4 @@ a {
     padding: 0;
     text-decoration: none;
     color: white;
-=======
-.default {
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-}
-
-.control {
-    display: block;
-    z-index: 1;
-    position: fixed;
-    right: 14px;
-    top: 13px;
-    cursor: pointer;
-    transition: top 0.4s linear 0s;
-}
-
-.bar {
-    width: 28px;
-    height: 5px;
-    background-color: white;;
-    margin: 3px 0;
-}
-
-.background {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-}
-
-.nav {
-    top: -38px;
-    z-index: 2;
-    position: fixed;
-    width: 100vw;
-    background-color: #13C4A3;
-    transition: top 0.3s linear 0s, background-color 0.4s ease-in 0.1s;
-}
-
-.nav:hover {
-    top: 0;
-    background-color: #32322C;
-    transition: top 0.5s linear 0s;
-}
-
-ul {
-    display: block;
-    max-width: 100%;
-    text-align: right;
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    position: relative;
-    margin: 0;
-    padding: 11px 35px;
-    transition: background-color 0.25s linear 0s;
-}
-
-li:hover {
-    background-color: #4C6085;
-}
-
-a {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: white;
->>>>>>> origin/master
 }
