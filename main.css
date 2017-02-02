@@ -18,7 +18,7 @@
 .bar {
     width: 28px;
     height: 5px;
-    background-color: white;
+    background-color: white;;
     margin: 3px 0;
 }
 
@@ -30,18 +30,18 @@
 }
 
 .nav {
-    top: -35px;
+    top: -38px;
     z-index: 2;
     position: fixed;
     width: 100vw;
     background-color: #13C4A3;
-    transition: top 0.3s linear 0s, background-color 0.4s linear 0s;
+    transition: top 0.3s linear 0s, background-color 0.4s ease-in 0.1s;
 }
 
 .nav:hover {
     top: 0;
     background-color: #32322C;
-    transition: top 0.5s linear 0s, background-color 0.3s linear 0s;
+    transition: top 0.5s linear 0s;
 }
 
 ul {
